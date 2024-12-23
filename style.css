@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;}
+.box1{
+    width: 100%;
+    padding-top: 807px;
+    text-align: center;}
+
+.font0{font-family: "Nanum Gothic", serif;}
+.font1{font-size: 25px; font-weight: 700; color: white;}
+.font2{font-size: 17px; font-weight: 400; color: white; line-height: 24px;}
+.font3{font-size: 17px; font-weight: 700; color: white; line-height: 24px;}
+.font4{font-size: 20px; font-weight: 700; color: #D83E3F;}
+.font5{font-size: 25px; font-weight: 700; color: white;}
+.font6{font-size: 10px; font-weight: 400; color: #999;}
+
+.header{
+    position: fixed; 
+    top: 0; left: 0; width: 100%; height: 90px; 
+    background-color: rgba(83, 0, 0, 0.8);
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    z-index: 4;}
+
+.navbar a{
+    color: #D83E3F !important;
+    text-decoration: none;}
+
+.logo{margin-top: 11px;}
+.buy{margin-right: 46px}
+.more{margin-right: 20px;}
+
+.b1{
+    height: 932px; 
+    background-image: url(img/1.png);}
+.b2{
+    height: 932px; 
+    background-image: url(img/2.png);
+    background-color: #0F1618;
+    background-blend-mode: screen;}
+.b3{
+    height: 932px; 
+    background-image: url(img/3.png);
+    background-color: #0F1618;
+    background-blend-mode: screen;}
+.b4{
+    height: 932px; 
+    background-image: url(img/4.png);
+    background-color: #0F1618;
+    background-blend-mode: screen;}
+.b5{
+    height: 932px;
+    background-image: url(img/5.png);
+    background-color: #0F1618;
+    background-blend-mode: screen;}
+.b6{
+    height: 711px; 
+    background-image: url(img/6.png);
+    background-color: #0F1618;
+    background-blend-mode: screen;}
+.b7{
+    height: 221px;
+    background-color: #0F1618;}
+
+.b1-1{padding-left: 204px; padding-top: 880px;}
+
+.b2_1{text-align: center; padding-top: 170px;}
+.b3_1{padding-left: 17px; padding-top: 710px;}
+.b3_2{padding-left: 17px; padding-top: 30px;}
+.b4_1{padding-left: 206px; padding-top: 258px;}
+.b4_2{text-align: right; padding-right: 17px; padding-top: 30px;}
+.b5_1{padding-left: 25px; padding-top: 521px;}
+.b5_2{padding-left: 25px; padding-top: 30px;}
+.b6_1{padding-left: 91px; padding-top: 454px;}
+.b6_2{text-align: center; padding-top: 30px;}
+
+.b7_1_1{padding-left: 56px; padding-top: 36.1px;}
+.b7_1_2{padding-left: 37.9px; padding-top: 32.1px;}
+.b7_1_3{padding-left: 38px; margin-top: 38.2px; margin-bottom: 5px;}
+.b7_1_4{padding-left: 56px; margin-bottom: 29px;}
+.b7_1_5{padding-left: 72px; margin-top: 13.4px; margin-bottom: 44.5px;}
+.b7_1_6{padding-left: 72.9px; margin-bottom: 44.5px;}
+
+
+.f1{display: inline-block; 
+    margin-left: 69px;
+    margin-bottom: 34px; 
+    vertical-align: top;}
+.f2{display: inline-block; 
+    margin-left: 55px;  
+    margin-bottom: 34px;
+    vertical-align: top;}
+.f3{display: inline-block;
+    margin-left: 140px;
+    vertical-align: top;}
+.f4{position: absolute;
+    left: 315px;
+    top: 5497px;}
